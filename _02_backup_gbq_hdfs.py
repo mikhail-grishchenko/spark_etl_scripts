@@ -23,9 +23,6 @@ import functools
 import signal
 
 
-
-
-
 # блокировка параллельных запусков 
 def prevent_duplicates(lock_file):
     # Попытка открыть файл с блокировкой
